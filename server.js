@@ -61,10 +61,8 @@ app.configure('development', function(){
 });
 
 app.configure('production', function(){
-  var oneDay = 86400000;
-  // app.use(assetsManagerMiddleware);
-  app.use(gzippo.staticGzip(__dirname + '/app'));
-  app.use(express.errorHandler());
+  app.use(express.static(__dirname + '/app'));
+  app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 });
 
 // Add the dynamic view helper
