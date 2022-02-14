@@ -1,0 +1,26 @@
+{
+  "name": "hatchetapp.net",
+  "version": "0.0.1-82",
+  "subdomain": "hat",
+  "domains": [
+    "hatchetapp.net",
+    "www.hatchetapp.net"
+  ],
+  "scripts": {
+    "start": "server.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "ejs": "3.1.5",
+    "express": "^2.5.11",
+    "express-cdn": "^0.4.0",
+    "gzippo": "0.1.7",
+    "socket.io": "~0.9.13",
+    "underscore": "^1.13.2"
+  },
+  "devDependencies": {
+    "socket.io-client": "*"
+  }
+}
