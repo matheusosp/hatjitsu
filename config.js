@@ -6,8 +6,8 @@ module.exports = {
     packAssets: false
   },
   production: {
-    hostname: "hat.jit.su",
-    port: 80,
-    packAssets: true
+    hostname: "localhost",
+    port: 5000,
+    packAssets: false
   }
 };
