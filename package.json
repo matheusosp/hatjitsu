@@ -1,14 +1,9 @@
 {
   "name": "hatchetapp.net",
   "version": "0.0.1-82",
-  "subdomain": "hat",
-  "domains": [
-    "hatchetapp.net",
-    "www.hatchetapp.net"
-  ],
   "scripts": {
     "start": "node server.js",
-    "postinstall": "ng build --aot --prod"
+    "postinstall": "ng build --prod"
   },
   "engines": {
     "node": "14.17.5",
