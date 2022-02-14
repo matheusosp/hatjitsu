@@ -113,7 +113,7 @@ io.configure('development', function(){
 });
 
 var port =  5000; // Use the port that Heroku provides or default to 5000
-app.listen(port);
+app.listen(process.env.PORT || port);
 
 
 
